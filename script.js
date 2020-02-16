@@ -1,3 +1,25 @@
+
+console.log('Script started');
+
+
+
+function innit () {
+    console.log('Adding listeners')
+    addListeners();
+    document.getElementById('elements');
+    
+    var clearButton = document.getElementById('clear');
+    clearButton.addEventListener("click", onClickClear);
+    var submitCustom = document.getElementById('generate2');
+    submitCustom.addEventListener("click", onClickCustom);
+}
+
+
+
+
+
+
+
 window.onload = function () {
     document.getElementById("fizzButton").addEventListener('click', function() {
         var buzz,			// the second divisor to test
@@ -30,7 +52,13 @@ window.onload = function () {
             }
         }
 
+
+
+
     }, false );
+
+
+   
 
     addItem = function (caption, typeName) {
         var newItem; 	// a bubble-shaped div displaying the current counting caption

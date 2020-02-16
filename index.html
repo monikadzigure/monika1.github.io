@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>FIZZBUZZ</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='script.js' defer></script>
@@ -39,6 +39,7 @@
                     tabindex="3" title="Enter a number" value="3" >
                 </div>
                 <div style="float:left;clear:left;">
+
                     <label for="buzzValue" class="right" >Buzz at</label>
                     <input type="text" name="buzzValue" pattern="[0-9]*" placeholder="Enter a number" required
                     tabindex="4" title="Enter a number" value="5" >
@@ -46,12 +47,23 @@
             </div>
             <p style="text-align:center;" >
                 <input type="button" id="fizzButton" tabindex="5" value="Fizz" >
+            
+                
             </p>
             <p id="errorMessage" style="visibility:hidden;color:red;">Please enter numbers for all four inputs.</p>
+            <div id="menuBox">
+                
+                <button type="submit" id="clear">Reset</button><br>
+                
+              
+            </div>
+            <div id ="elements"></div>
         </fieldset>
     </form>
     <div id="showResult" style="clear:both;">
     </div>
+
+    
 </div>
 
 
