@@ -1,0 +1,59 @@
+body, input {font-family: Tahoma, sans-serif; font-size: 16px;}
+			div {padding:10px;}
+			fieldset {border-radius:15px;}
+			input {margin-left: 10px; }
+			input[type=button]{
+				text-align:center;
+				text-decoration: none;
+				font-family: sans-serif;
+				color: #FFF;
+				background: #0CADA7;
+				padding: 5px 10px 5px 10px;
+				display: inline-block;
+				white-space: nowrap;
+				border-radius: 5px;
+				margin: 10px 0;
+			}
+			input[type=button]:hover {
+				background: #0A948F;
+				}
+
+			input[type=text] {float:right; width:50px;}
+			input[type=text]:valid { color: green;}
+			input[type=text]:invalid { color: red;}
+			label {float:left;padding-top:3px;}
+			label.left {width:145px;}
+			label.right {width:55px;}
+			legend {color:#0CADA7;font-weight:bold;}
+			p {clear:both;}
+			.result {
+				background: linear-gradient(#ffffff, #dddddd);
+				border:solid 1px #dddddd;
+				border-radius: 15px;
+				margin: 5px auto;
+				text-align: center;
+				width: 50px;
+			}
+			.fizz {
+				background: linear-gradient(#ffffff, #8ee5ee);
+				border-color: #8ee5ee;
+				color: #53868b;
+			}
+			.buzz {
+				background: linear-gradient(#ffffff, #7fff00);
+				border-color: #7fff00;
+				color: #458b00;
+			}
+			.fizzBuzz {
+				background: linear-gradient(#ffffff, #fff273);
+				border-color: #fff273;
+				color: #a69700;
+			}
+        
+            
+            body {
+                background-image: url("fizzbuzz.png");
+                
+                background-position: right top;
+                background-attachment: scroll;
+              }
